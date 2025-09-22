@@ -54,6 +54,11 @@ For example, if you’re building an air quality sensor, you can connect an I²C
 
 I²C expander boards are also very affordable—typically under $5. For reliability, I recommend picking one up from Adafruit or another trusted supplier.
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7b1498f5-d27c-48d7-812d-9a9d5c54a945" alt="Board and Hole Size" width="600">
+</p>
+
+
 ---
 
 
