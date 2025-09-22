@@ -1,4 +1,5 @@
-# Aztec-Platforms-ESP32-C6-PB-V1
+# Aztec Platforms
+## AP-ESP32C6-PB-1V0
 In this Documentation we will explore the Aztec Platforms ESP32-C6-PB-V1. This board is designed to be a versitile project board that can be used in many ways. The main reason I design these boards is to reduce the amount of wiring for simple tasks like voltage reduction, common pinout placement, PSU jankery, etc.
 
 Designed to get your projects off the ground faster, and, suitable for use in long term and permanent projects.
