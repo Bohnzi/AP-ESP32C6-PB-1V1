@@ -3,11 +3,7 @@ In this Documentation we will explore the Aztec Platforms ESP32-C6-PB-V1. This b
 
 Designed to get your projects off the ground faster, and, suitable for use in long term and permanent projects.
 
----
-
 # Design Overview
-
----
 
 ### Board Size and hole spacing
 
