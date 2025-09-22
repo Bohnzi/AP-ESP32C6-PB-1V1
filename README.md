@@ -14,22 +14,25 @@ Designed to get your projects off the ground faster, and, suitable for use in lo
 
 ### Power Rails
 
-  This board provides three usable voltage rails — 12 V, 5 V, and 3.3 V — making it versatile for a wide range of projects and connected devices.
-  
-  Power is supplied through the USB-C female connector on the edge of the board. The USB-C controller negotiates with the charger to request 12 V at 3 A.
-  
-  ⚠️ Important: Not all USB-C chargers provide a 12 V profile. Some only support 9 V or 15 V, so be sure to check the fine print on your power brick to confirm it can supply 12 V at 3 A.
-  
-  Once the board receives 12 V, the power is stepped down in two stages:
-  
-  12 V → 5 V
-  
-  12 V → 3.3 V
-  
-  The ESP32-C6 runs on 3.3 V, which is also the voltage used by most sensors and peripherals. The 5 V line is useful for certain modules, and the raw 12 V input remains available as well.
-  
-  This simple but flexible design ensures that whatever you’re connecting, you’ll have the right voltage available.
+This board provides three usable voltage rails — 12 V, 5 V, and 3.3 V — making it versatile for a wide range of projects and connected devices.
 
+Power is supplied through the USB-C female connector on the edge of the board. The USB-C controller negotiates with the charger to request 12 V at 3 A.
+
+⚠️ Important: Not all USB-C chargers provide a 12 V profile. Some only support 9 V or 15 V, so be sure to check the fine print on your power brick to confirm it can supply 12 V at 3 A.
+
+Once the board receives 12 V, the power is stepped down in two stages:
+
+12 V → 5 V
+
+12 V → 3.3 V
+
+The ESP32-C6 runs on 3.3 V, which is also the voltage used by most sensors and peripherals. The 5 V line is useful for certain modules, and the raw 12 V input remains available as well.
+
+This simple but flexible design ensures that whatever you’re connecting, you’ll have the right voltage available.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0776d2c0-86ce-46ed-93fa-f2099d2330b8" alt="Board and Hole Size" width="600">
+</p>
 
 
 ## License
