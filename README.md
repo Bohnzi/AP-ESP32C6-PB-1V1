@@ -6,7 +6,10 @@ Designed to get your projects off the ground faster, and, suitable for use in lo
 ## Design Overview
 
 ### Board Size and hole spacing
-<img src="https://github.com/user-attachments/assets/1544f7ed-0271-4d81-82d0-7321f58d19ca" alt="Description" style="max-width:600px; width:100%;"/>
+
+<img src="https://github.com/user-attachments/assets/1544f7ed-0271-4d81-82d0-7321f58d19ca" alt="Board and Hole Size" width="600">
+
+### Design Walkthrough
 
 
 
