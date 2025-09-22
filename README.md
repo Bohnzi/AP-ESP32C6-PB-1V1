@@ -30,6 +30,8 @@ The ESP32-C6 runs on 3.3 V, which is also the voltage used by most sensors and p
 
 This simple but flexible design ensures that whatever you’re connecting, you’ll have the right voltage available.
 
+### Level Translator (Level Shifter) and Pin Voltages
+
 <p align="center">
 <img src="https://github.com/user-attachments/assets/0776d2c0-86ce-46ed-93fa-f2099d2330b8" alt="Board and Hole Size" width="600">
 </p>
