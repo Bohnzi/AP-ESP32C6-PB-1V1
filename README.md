@@ -32,6 +32,12 @@ This simple but flexible design ensures that whatever you’re connecting, you�
 
 ### Level Translator (Level Shifter) and Pin Voltages
 
+Another key feature of this board, made possible by the 3.3 V and 5 V rails, is the level shifter. This component translates signals between 3.3 V (from the ESP32-C6) and 5 V, enabling you to control devices that require 5 V inputs. For example, the PWM input on a computer fan expects a 5 V signal, so you couldn’t drive it directly from the ESP32 alone.
+
+The level shifter also works in reverse: it safely steps down 5 V input signals to 3.3 V, protecting the ESP32-C6 pins. This is particularly useful when working with sensors that output only 5 V, as connecting them directly could damage the microcontroller.
+
+For each level-shifted signal, you’ll notice duplicate pins: one for the 3.3 V side and one for the 5 V side. ⚠️ Important: these pairs are electrically connected. You can use either the 3.3 V or the 5 V version of a pin (e.g., D0), but not both at the same time.
+
 <p align="center">
 <img src="https://github.com/user-attachments/assets/0776d2c0-86ce-46ed-93fa-f2099d2330b8" alt="Board and Hole Size" width="600">
 </p>
