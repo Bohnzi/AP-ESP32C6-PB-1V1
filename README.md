@@ -17,17 +17,18 @@ Designed to get your projects off the ground faster, and, suitable for use in lo
 
 This board provides three usable voltage rails — 12 V, 5 V, and 3.3 V — making it versatile for a wide range of projects and connected devices.
 
-Power is supplied through the USB-C female connector on the edge of the board. The USB-C controller negotiates with the charger to request 12 V at 3 A.
+Power can be supplied in two ways:
+- USB-C female connector — The onboard USB-C port negotiates with the charger and requests 12 V at 3 A. Because of the USB-C protocol and the chipset used here, the port is limited to 3 A at 12 V. Higher current (like 12 V at 5 A) would require more advanced USB-C power delivery chips, which this board does not use.
+- Direct 12 V input — Near the USB-C connector, you’ll see two larger VIAs. These allow you to feed the board directly with 12 V at up to 5 A. The onboard power system is designed for this: the power supply, traces, and components are all rated for 5 A and can safely deliver that if needed.
+⚠️ Important: If you’re powering through USB-C, make sure your charger supports the 12 V profile at 3 A. Not all USB-C bricks do — some only provide 9 V or 15 V. For higher-power use cases, connect 12 V directly through the VIAs to take advantage of the full 5 A capacity.
 
-⚠️ Important: Not all USB-C chargers provide a 12 V profile. Some only support 9 V or 15 V, so be sure to check the fine print on your power brick to confirm it can supply 12 V at 3 A.
-
-Once the board receives 12 V, the power is stepped down in two stages:
+Once 12 V is available on the board, it is stepped down in two stages:
 - 12 V → 5 V
 - 12 V → 3.3 V
 
-The ESP32-C6 runs on 3.3 V, which is also the voltage used by most sensors and peripherals. The 5 V line is useful for certain modules, and the raw 12 V input remains available as well.
+The ESP32-C6 runs on 3.3 V, which is also the voltage used by most sensors and peripherals. The 5 V rail is handy for certain modules, and the raw 12 V input remains available as well.
 
-This simple but flexible design ensures that whatever you’re connecting, you’ll have the right voltage available.
+This design keeps the board simple, flexible, and safe while giving you multiple voltage rails to power different devices.
 
 ---
 
