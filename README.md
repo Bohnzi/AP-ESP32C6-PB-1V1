@@ -11,19 +11,21 @@ Designed to get your projects off the ground faster, and, suitable for use in lo
 
 ### Power Rails
 
-When looking at the design of this board, it’s fairly straightforward. Power comes in through the USB-C female connector on the edge of the board. The USB-C controller negotiates with the charger and requests 12 V at 3 A.
+This board provides three usable voltage rails — 12 V, 5 V, and 3.3 V — making it versatile for a wide range of projects and connected devices.
 
-⚠️ Important: Make sure your USB-C power supply (wall brick or equivalent) supports the 12 V/3 A profile. Not all USB-C chargers are required to offer 12 V — some only provide 9 V or 15 V. Many do support 12 V, but you’ll need to check the fine print on your power brick to confirm.
+Power is supplied through the USB-C female connector on the edge of the board. The USB-C controller negotiates with the charger to request 12 V at 3 A.
 
-Once 12 V is supplied to the board, it is stepped down in two stages:
+⚠️ Important: Not all USB-C chargers provide a 12 V profile. Some only support 9 V or 15 V, so be sure to check the fine print on your power brick to confirm it can supply 12 V at 3 A.
+
+Once the board receives 12 V, the power is stepped down in two stages:
 
 12 V → 5 V
 
 12 V → 3.3 V
 
-The ESP32-C6 itself runs on 3.3 V, and most sensors and peripherals you’ll use also run at 3.3 V. However, having 5 V available is convenient for certain modules, and the raw 12 V input is also accessible.
+The ESP32-C6 runs on 3.3 V, which is also the voltage used by most sensors and peripherals. The 5 V line is useful for certain modules, and the raw 12 V input remains available as well.
 
-That gives you three usable voltage rails on this board — 12 V, 5 V, and 3.3 V — making it versatile for a wide range of projects and connected devices.
+This simple but flexible design ensures that whatever you’re connecting, you’ll have the right voltage available.
 
 
 
