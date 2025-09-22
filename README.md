@@ -6,7 +6,7 @@ Designed to get your projects off the ground faster, and, suitable for use in lo
 ## Design Overview
 
 ### Board Size and hole spacing
-<img width="2400" height="2185" alt="AP-ESP32C6-PB-1V0 drawio (1)" src="https://github.com/user-attachments/assets/1544f7ed-0271-4d81-82d0-7321f58d19ca" />
+<img src="https://github.com/user-attachments/assets/1544f7ed-0271-4d81-82d0-7321f58d19ca" alt="Description" style="max-width:600px; width:100%;"/>
 
 
 
