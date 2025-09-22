@@ -47,6 +47,16 @@ For each level-shifted signal, you’ll notice duplicate pins: one for the 3.3 V
 
 ---
 
+### I2C Pinout
+The Seeed Studio ESP32-C6 has a limited number of pins, so this board places D4 and D5 side by side as the dedicated I²C pins (SDA and SCL). These are arranged in a row with 3.3 V and GND on standard 2.54 mm pin spacing, allowing a JST-XH female plug to be soldered directly to the board. This makes it simple to plug in I²C expansion boards and start adding peripherals right away.
+
+For example, if you’re building an air quality sensor, you can connect an I²C expander board to add multiple sensors while still using just the SDA/SCL lines. This gives you more inputs and outputs without tying up other GPIO pins.
+
+I²C expander boards are also very affordable—typically under $5. For reliability, I recommend picking one up from Adafruit or another trusted supplier.
+
+---
+
+
 ## License
 This repository is licensed under a custom Source-Available License.  
 - ✅ Personal, hobbyist, and educational use of the code is allowed.  
