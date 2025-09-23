@@ -9,8 +9,9 @@ Designed to get your projects off the ground faster, and, suitable for use in lo
 ### Board Size and hole spacing
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/1544f7ed-0271-4d81-82d0-7321f58d19ca" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/ead115d4-52d1-4ad5-8a35-0cb6f718a297" alt="Board and Hole Size" width="600">
 </p>
+
 
 ---
 
@@ -42,8 +43,9 @@ The level shifter also works in reverse: it safely steps down 5 V input signals 
 For each level-shifted signal, you’ll notice duplicate pins: one for the 3.3 V side and one for the 5 V side. ⚠️ Important: these pairs are electrically connected. You can use either the 3.3 V or the 5 V version of a pin (e.g., D0), but not both at the same time.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0776d2c0-86ce-46ed-93fa-f2099d2330b8" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/35c7b4ac-7405-447b-96bf-e14d9b0b2173" alt="Board and Hole Size" width="600">
 </p>
+
 
 ---
 
@@ -55,7 +57,16 @@ For example, if you’re building an air quality sensor, you can connect an I²C
 I²C expander boards are also very affordable—typically under $5. For reliability, I recommend picking one up from Adafruit or another trusted supplier.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7b1498f5-d27c-48d7-812d-9a9d5c54a945" alt="Board and Hole Size" width="600">
+<img src="https://github.com/user-attachments/assets/b307e2f8-6209-4f73-991a-0dbc09eff09f" alt="Board and Hole Size" width="600">
+</p>
+
+
+---
+
+### N-Channel Mosfet
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/687490fc-9464-451d-a145-f8b9201672d1" alt="Board and Hole Size" width="600">
 </p>
 
 
