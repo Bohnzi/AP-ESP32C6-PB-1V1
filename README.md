@@ -80,17 +80,17 @@ It might look confusing at first, but D0 can actually be used in three different
 
 Here’s how the different versions of D0 work:
 
-5V GPIO D0 pins
+- 5V GPIO D0 pins
 On the far left side of the board, you’ll see two D0 pins at 5 volts. These go through a level shifter and connect back to the main controller, which means they can be used as normal GPIO pins. This makes them great for general-purpose control of small devices like LEDs, fans, or little motors.
 
-MOSFET D0
+- MOSFET D0
 D0 also drives the onboard MOSFET. In this case, the PWM signal from D0 switches the 12-volt and ground pins on and off very quickly.
 
 This is perfect for dimming 12-volt LEDs, since the rapid on/off switching makes them appear dimmer.
 
 You can also use it for motors, pumps, or other two-pin 12-volt devices where you need speed or power control.
 
-3.3V GPIO D0 pin
+- 3.3V GPIO D0 pin
 Just to the right of the MOSFET section, you’ll find the standard 3.3-volt GPIO D0 pin. This is a direct general-purpose I/O pin, just like you’d expect on a microcontroller.
 
 So while D0 shows up in multiple places, each one serves a specific purpose. The key is to only choose one version of D0 for your project. If you try to tie them together, you risk damaging the electronics or the sensors you’re connecting.
