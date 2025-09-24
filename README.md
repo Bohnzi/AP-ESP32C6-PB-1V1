@@ -65,6 +65,10 @@ I²C expander boards are also very affordable—typically under $5. For reliabil
 
 ### N-Channel Mosfet
 
+The output highlighted in the image below is controlled by an N-channel MOSFET. Think of it like an electronic switch that turns on and off very quickly. When you send a PWM signal to the MOSFET, you can control how much power gets through to your device.
+
+This is especially useful for things like motors or fans that only have two wires, voltage and ground. Normally, they would just run at full speed whenever power is applied. By using a MOSFET, your controller can rapidly switch the power on and off, making it look to the device like it is receiving less power. For example, if the PWM signal is set to 50%, the motor will only draw about half the power and run at roughly half speed, even though it is still being supplied with the full voltage during each “on” cycle.
+
 <p align="center">
 <img src="https://github.com/user-attachments/assets/687490fc-9464-451d-a145-f8b9201672d1" alt="Board and Hole Size" width="600">
 </p>
